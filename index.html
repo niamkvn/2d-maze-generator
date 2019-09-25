@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Maze Generator | Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/coming-soon.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- <div class="overlay"></div> -->
+    <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="mp4/bg.mp4" type="video/mp4">
+  </video> -->
+    <!-- <img class="bg_image" src="img/bg-mobile-fallback.jpg" alt="" /> -->
+
+    <div class="masthead">
+      <div class="masthead-bg"></div>
+    </div>
+
+    <div class="row px-5 demo">
+      <div class="col-md-5 demo_kiri">
+        <a class="text-white" href="./demo/demo.html">Demo >></a>
+        <h1 class="mb-3">Maze Generator!</h1>
+        <div class="col-md-6 mt-5">
+          <button id="btnGenerate" class="btn btn-primary mr-3 text-left">
+            Generate Maze
+          </button>
+          <button id="btnCari" class="btn btn-success">Cari</button>
+          <div class="form-group mt-2">
+            <label for="framerate">Framerate:</label>
+            <select class="form-control" id="framerate">
+              <option value="1">1 frame/second</option>
+              <option value="5">5 frames/second</option>
+              <option value="100">100 frames/second</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 canvas">
+          <div class="my-5" id="canvasDemo"></div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/coming-soon.js"></script>
+
+    <!-- Js Demo Inject -->
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/Cell.js"></script>
+    <script src="js/sketch.js"></script>
+    <script src="js/Pencari.js"></script>
+    <!-- End Js Demo Inject -->
+  </body>
+</html>
